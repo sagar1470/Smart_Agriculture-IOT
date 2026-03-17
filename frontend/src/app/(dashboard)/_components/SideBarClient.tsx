@@ -122,6 +122,7 @@ export default function SidebarClient({ session, children }: any) {
 
   return (
     <Sidebar className="border-r border-blue-300/70 dark:border-blue-800/70 bg-linear-to-br from-blue-50 via-indigo-50 to-white dark:from-blue-900 dark:via-indigo-900 dark:to-slate-800 shadow-md">
+     
       {/* Header */}
       <SidebarHeader className="px-6 py-5 border-b border-blue-300/50 dark:border-blue-700/50 flex items-center justify-center">
         <Logo />
