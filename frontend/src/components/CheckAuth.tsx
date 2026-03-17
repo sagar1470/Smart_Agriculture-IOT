@@ -24,7 +24,7 @@ export async function UnprotectedPage() {
 
     if(session){
 
-       if(!session.user.firstName || !session.user.lastName || !session.user.currency) {
+       if(!session.user.firstName || !session.user.lastName || !session.user.device_id || !session.user.user_role) {
          redirect('/onboarding')
        }
        

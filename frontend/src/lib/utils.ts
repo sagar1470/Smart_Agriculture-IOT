@@ -13,5 +13,10 @@ export const currencyOption = {
   GBP: '£',
   JPY: '¥'
 };
+export const user_role = {
+  farmer : "farmer",
+  admin : "admin"
+};
 
- export type TCurrencyKey = keyof typeof currencyOption;
+export default user_role
+export type TCurrencyKey = keyof typeof currencyOption;

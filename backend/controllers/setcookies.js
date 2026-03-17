@@ -31,6 +31,8 @@ async function SettingCookies(req, res) {
         id: user._id,
         username: user.firstName,
         email: user.email,
+        device_id: user.device_id,
+        user_role: user.user_role,
       };
 
       const token = jwt.sign(tokenData, process.env.TOKEN_SECRET_KEY, {
